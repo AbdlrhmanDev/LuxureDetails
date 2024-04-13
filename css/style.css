@@ -1,0 +1,136 @@
+
+*{
+    box-sizing: border-box;
+}
+ body{
+        font-family: 'Clash Display', sans-serif;
+        background-color: black;
+        scroll-behavior: smooth;
+    }
+/* hero */
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: transparent;
+   
+
+}
+.img-hero{
+    background-image: url(../imag/1.png);
+    background-position: center top ;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    margin-top: 10rem;
+    /* width: 100%; */
+}
+.title-hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    background-color: #0000005c;
+    padding: 2rem;
+    border-radius: 15px;
+}
+.title-hero h1{
+    font-size: 4rem;
+    font-weight: 100;
+}
+/*  */
+.sec2 h6{
+    font-weight: 100;
+   padding-bottom: 2rem;
+   margin-bottom: 5rem;
+    border-bottom: 1px solid white;
+}
+.mb-10{
+    margin-bottom: 10rem;
+}
+.img{
+    transition: all 0.5s ease;
+}
+.img:hover{
+    transform: scale(1.1 ,1.1);
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+.img-container{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+.mb-15{
+    margin-bottom: 15rem;
+}
+/*  */
+.img-car{
+opacity: 0.6;
+}
+.overly img{
+    margin-left: 3rem;
+    margin-bottom: 0.5rem;
+}
+.overly{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* 
+ */
+ .left{
+    border-right: 1px solid white;
+    /* width: 100%; */
+ }
+ .all-continer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+ }
+ .lh{
+    margin-bottom: 4rem;
+ }
+ .overlys{
+    position: absolute;
+    top: 20%;
+    left: 100%;
+    transform: translate(-40%,-50%);
+    width: 100%;
+ }
+ .overlys h2{
+    font-size: 1rem;
+ }
+ .overlys p{
+    font-size: .5rem;
+ }
+ h4 ,ul ,li{
+    color: white;
+ }
+
+
+ /* btn */
+ .btn-outline-success {
+    --bs-btn-color: #000000;
+    --bs-btn-border-color: #000000;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #000000e4;
+    --bs-btn-hover-border-color: #000000;
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #000000;
+    --bs-btn-active-border-color: #000000;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #000000;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #198754;
+    --bs-gradient: none;
+}

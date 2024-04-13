@@ -1,0 +1,80 @@
+@media (width >= 76px) { 
+
+    .img-hero{
+  
+       background-size: 180%;
+       background-position: center;
+        /* width: 100%; */
+    }
+    .img-container{
+        
+        flex-direction: column;
+    }
+    .overlys{
+        position: absolute;
+        top: 50%;
+        left: 70%;
+        transform: translate(-50%,-50%);
+        width: 40%;
+        background-color: rgba(0, 0, 0, 0.56);
+        padding: 1rem;
+        border-radius: 1rem;
+        
+     }
+     .overlys h2{
+        font-size: .9rem;
+     }
+     .overlys p{
+        font-size: .5rem;
+     }
+
+    
+
+ }
+
+@media (width>= 576px) { 
+
+
+
+    .img-hero{
+  
+       background-size: 180%;
+       background-position: center;
+        /* width: 100%; */
+    }
+    .img-container{
+        
+        flex-direction: row;
+    }
+    .left{
+        border: none;
+    }
+    .overlys{
+        position: absolute;
+        top: 50%;
+        left: 70%;
+        transform: translate(-50%,-50%);
+        width: 40%;
+        background-color: rgba(0, 0, 0, 0.56);
+        padding: 1rem;
+        
+     }
+     .overlys h2{
+        font-size: .9rem;
+     }
+     .overlys p{
+        font-size: .6rem;
+     }
+
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (width>= 768px) { 
+    
+    .img-hero{
+  
+        background-size: 180%;
+        background-position: center;
+         /* width: 100%; */
+     }
+ }
